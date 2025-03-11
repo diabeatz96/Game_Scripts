@@ -34,7 +34,7 @@ Welcome to the Talon Game Library! This repository aims to provide a comprehensi
 **Option 2: Downloading the ZIP (Easier for beginners)**
 
 1.  **Download the Game Library ZIP:**
-    * Go to the repository page: [[https://github.com/YOUR_GITHUB_USERNAME/talon-game-library]](https://github.com/diabeatz96/Talon-Game-Scripts)(https://github.com/diabeatz96/Talon-Game-Scripts)
+    * Go to the repository page: [https://github.com/diabeatz96/Talon-Game-Scripts](https://github.com/diabeatz96/Talon-Game-Scripts)
     * Click the green "Code" button.
     * Select "Download ZIP".
     * Save the ZIP file to a location you can easily find (like your Downloads folder).
@@ -69,7 +69,7 @@ Welcome to the Talon Game Library! This repository aims to provide a comprehensi
 
 ### 📂 Game Folders
 
-Each game will have its own folder within the `game_library` directory. Inside, you'll find:
+Each game will have its own folder within the `Talon-Game-Scripts` directory. Inside, you'll find:
 
 * `.talon` files containing the voice commands and scripts.
 * Any supporting files (e.g., images, configuration files).
@@ -89,7 +89,7 @@ We welcome contributions from the community! If you have scripts for a game not 
 
     Replace `your-game-name` with a descriptive name for your branch.
 
-3.  **Add your game's folder:** Create a new folder within the `game_library` directory with the name of your game.
+3.  **Add your game's folder:** Create a new folder within the directory with the name of your game.
 4.  **Add your Talon scripts and supporting files:** Place all relevant files inside the game's folder.
 5.  **Document your scripts:** Add comments to your `.talon` files explaining the commands and their functionality.
 6.  **Add eye tracking label:** If your game supports eye tracking, please add an EyeTracking.txt file inside of the folder.
