@@ -7,7 +7,7 @@ Welcome to the Talon Game Library! This repository aims to provide a comprehensi
 ### 1. Prerequisites
 
 * **Talon Voice:** Make sure you have Talon Voice installed and configured. If not, visit [talonvoice.com](https://talonvoice.com/).
-* **Community Talon:** You'll need the community Talon repository for this library to function correctly.
+* **Community Talon:** You'll need the community Talon repository for this library to function correctly. 
 
 ### 2. Installation
 
@@ -17,7 +17,7 @@ Welcome to the Talon Game Library! This repository aims to provide a comprehensi
 1.  **Clone this repository:**
 
     ```bash
-    git clone [https://github.com/diabeatz96/Talon-Game-Scripts.git](https://github.com/diabeatz96/Talon-Game-Scripts.git)
+    git clone https://github.com/diabeatz96/Talon-Game-Scripts.git
     ```
 
 2.  **Clone the Community Talon Repository:**
@@ -25,10 +25,10 @@ Welcome to the Talon Game Library! This repository aims to provide a comprehensi
     If you don't already have it, clone the community Talon repository:
 
     ```bash
-    git clone [https://github.com/talonhub/community.git](https://github.com/talonhub/community.git) ~/.talon/user/community
+    git clone https://github.com/talonhub/community.git](https://github.com/talonhub/community.git) 
     ```
 
-    **Important:** Place the `community` folder directly into your `~/.talon/user/` directory.
+    **Important:** Place the folders directly into your `~/.talon/user/` directory.
 
 
 **Option 2: Downloading the ZIP (Easier for beginners)**
