@@ -1,4 +1,12 @@
 # hades2.talon
+
+# Create multiple dash macro, (Dash X amount of time)
+# Create a L shap dash macro (Move in a L)
+# Diagonal dash macro
+# Turn with voice more dynamically ??
+# combo button check best settings (Maybe most optimal)
+# CLOSE VS RANGED attack set (One for close and one for ranged.)
+
 app.name: Hades II
 -
 settings():
@@ -6,8 +14,6 @@ settings():
     key_wait = 15
 
 # =========== COMBAT COMMANDS ===========
-attack:
-    key(a)
 
 combo:
     key(a:3)
@@ -20,11 +26,6 @@ combo:
 
 special:
     key(s:3)
-
-special hold:
-    key(s:down)
-    sleep(2000ms)
-    key(s:up)
 
 attack hold:
     key(a:down)
@@ -42,13 +43,14 @@ cast:
 
 cast hold:
     key(q:down)
-    sleep(2000ms)
+    sleep(2000ms)hol
+    sleep(2000ms)hol
     key(q:up)
 
 cast release:
     key(q:up)
 
-dash | activate:
+dash | activate | next | unlock | select | choose:
     key(space)
 
 # Full combat combo (attack, special, cast)
@@ -61,37 +63,110 @@ full combo:
     sleep(150ms)
     key(space)
 
+hit | attack:
+    key(a:3)
+    sleep(50ms)
+    key(a:3)
+    sleep(50ms)
+    key(a:3)
+    sleep(50ms)
+    key(a:3)
+    sleep(50ms)
+    key(a:3)
+    sleep(50ms)
+    key(a:3)
+    sleep(50ms)
+    key(a:3)
+    sleep(50ms)
+    key(a:3)
+    sleep(50ms)
+    key(a:3)
+    sleep(50ms)
+    key(a:3)
+    sleep(50ms)
+    key(a:3)
+    sleep(50ms)
+
+spam special | shoot:
+    key(s:3)
+    sleep(50ms)
+    key(s:3)
+    sleep(50ms)
+    key(s:3)
+    sleep(50ms)
+    key(s:3)
+    sleep(50ms)
+    key(s:3)
+    sleep(50ms)
+    key(s:3)
+    sleep(50ms)
+    key(s:3)
+    sleep(50ms)
+    key(s:3)
+    sleep(50ms)
+    key(s:3)
+    sleep(50ms)
+    key(s:3)
+    sleep(50ms)
+    key(s:3)
+    sleep(50ms)
 # Dash combos
 dash attack:
     key(space)
-    sleep(50ms)
     key(a:3)
 
 dash special:
     key(space)
-    sleep(50ms)
     key(s:3)
 
 dash cast:
     key(space)
-    sleep(50ms)
     key(q)
 
 hex: 
     key(f)
 
 # =========== MOVEMENT COMMANDS ===========
-up:
+
+tee left:
+    key(left)
+
+tee right:
+    key(right)
+
+tee up:
+    key(up)
+
+tee down:
+    key(down)
+
+move up:
     key(up:down)
 
-down:
+move down:
     key(down:down)
 
-left:
+up | uh | north:
+    key(up)
+    key(space)
+
+down: 
+    key(down)
+    key(space)
+
+move left:
     key(left:down)
 
-right:
+left:
+    key(left)
+    key(space)
+
+move right:
     key(right:down)
+
+right:
+    key(right)
+    key(space)
 
 stop up:
     key(up:up)
@@ -123,11 +198,12 @@ right down:
     key(down:down)
 
 # =========== MENUING AND INTERACTING ===========
-click:
+click | talk | go | inspect | collect | accept | gather | each | proceed | equip | incant:
     key(e)
 
 click left:
     key(left)
+:
 
 click right:
     key(right)
@@ -149,6 +225,9 @@ salute:
 
 rarify:
     key(r)
+
+inventory:
+    key(i)
 
 tag:
     key(t)
